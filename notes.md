@@ -71,7 +71,8 @@ and "Observation" steps, allowing it to interact with external tools, refine its
   - Outline Expansion Pattern. To use this pattern, your prompt should make the following fundamental contextual statements:
 
         - Act as an outline expander. 
-        - Generate a bullet point outline based on the input that I give you and then ask me for which bullet point you should expand on. 
+        - Generate a bullet point outline based on the input that I give you and then ask me for which bullet point
+        you should expand on. 
         - Create a new outline for the bullet point that I select. 
         - At the end, ask me for what bullet point to expand next.   
         - Ask me for what to outline.
@@ -86,7 +87,8 @@ and "Observation" steps, allowing it to interact with external tools, refine its
 
         - Generate a set of facts that are contained in the output.
         - The set of facts should be inserted at POSITION in the output.
-        - The set of facts should be the fundamental facts that could undermine the veracity of the output if any of them are incorrect.
+        - The set of facts should be the fundamental facts that could undermine the veracity of the output
+        if any of them are incorrect.
 
   - Tail Generation Pattern. To use this pattern, your prompt should make the following fundamental contextual statements:
 
